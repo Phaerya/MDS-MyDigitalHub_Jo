@@ -89,7 +89,3 @@ jobs:
             "DATABASE_NAME=myDigitalHub"
             "DATABASE_USERNAME=strapi"
             "DATABASE_PASSWORD=strapi"
-            
-
-
-          
