@@ -54,6 +54,20 @@ services:
     networks:
       - mydigitalhub-backend
 
+  frontend:
+    container_name: mydigitalhub-frontend
+    build: ./frontend
+    restart: unless-stopped
+    env_file: 
+      - ./frontend/.env.local
+    ports:
+      - 3000:3000
+    networks:
+      - mydigitalhub-backend
+      - mydigitalhub-frontend
+    depends_on:
+      - backend
+
 volumes:
   strapi-data:
 networks:

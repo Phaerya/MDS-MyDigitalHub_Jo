@@ -1,5 +1,4 @@
 async function getData(id){
-  const res =
 }
 
 
