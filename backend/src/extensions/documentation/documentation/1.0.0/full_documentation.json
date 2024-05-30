@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-05-23T09:48:39.110Z"
+    "x-generation-date": "2024-05-30T11:55:49.186Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -25,7 +25,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337/api",
+      "url": "https://joaquim.moraisfaria.nantes.mds-project.fr/strapi/api",
       "description": "Development server"
     }
   ],

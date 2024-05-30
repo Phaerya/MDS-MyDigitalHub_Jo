@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, Input, SelectItem, Select } from '@nextui-org/react'
 import { CREATE_OFFER } from '@/graphql/queries/queries'
 import client from '@/graphql/apolloClient'
-import offerData from '../../../backend/src/api/offer/content-types/offer/schema.json'
+import offerData from '../apiTemp/schema.json'
 
 const skillOptions = offerData.attributes.skills.options.map(skill => ({ label: skill, value: skill }))
 const educationOptions = offerData.attributes.education.options.map(edu => ({ label: edu, value: edu }))
