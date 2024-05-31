@@ -23,6 +23,7 @@ const defaultOptions = {
 
 const client = new ApolloClient({
   link: from([httpLink]),
+  ssrMode: true,
   cache: new InMemoryCache(),
   defaultOptions
 
